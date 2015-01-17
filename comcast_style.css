@@ -1,0 +1,59 @@
+body{
+	background-color: #EFEFEF;
+}
+
+*{
+margin:0px;
+padding:0px;
+}
+
+.leftBox{
+border:1px solid #CDCDCD;
+border-radius:5px;
+box-shadow:1px 1px 10px #CDCDCD;
+width:400px;
+height:300px;
+float:left;
+margin-top:10px;
+margin-left:40px;
+background-color: #FFFFFF;
+}
+
+.lefttopBox{
+border-bottom:1px solid #CDCDCD;
+height:130px;
+font:13px "Arial";
+color: #757575;
+margin-top:20px;
+}
+
+.payNowButton{
+float:left;
+margin-top:18px;
+margin-left:35px;
+background: #fcce44; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcce44 20%, #fcd255 42%, #febf01 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#fcce44), color-stop(42%,#fcd255), color-stop(100%,#febf01)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fcce44 20%,#fcd255 42%,#febf01 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fcce44 20%,#fcd255 42%,#febf01 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fcce44 20%,#fcd255 42%,#febf01 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fcce44 20%,#fcd255 42%,#febf01 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcce44', endColorstr='#febf01',GradientType=0 ); /* IE6-9 */ 	
+width:70px;
+color:#3E3730;
+height:17px;
+padding:13px 50px;
+font-size:15px;
+border:1px solid #c99d00;
+border-radius:4px;
+box-shadow:1px 1px 1px #cacaca;
+}
+
+.rightBox{
+width:500px;
+height:400px;
+float:left;
+margin-top:5px;
+margin-left:40px;
+background-color:#FFFFFF;
+}
