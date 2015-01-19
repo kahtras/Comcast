@@ -1,0 +1,196 @@
+body{
+	background-color: #EFEFEF;
+}
+
+*{
+margin:0px;
+padding:0px;
+}
+
+a{
+text-decoration:none;
+font-size:13px;
+}
+
+.sprite{
+	background: url('img/sprite.png') no-repeat;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+.leftBox{
+border:1px solid #CDCDCD;
+border-radius:5px;
+box-shadow:1px 1px 10px #CDCDCD;
+width:425px;
+height:313px;
+float:left;
+margin-top:10px;
+margin-left:40px;
+background-color: #FFFFFF;
+}
+
+.lefttopBox{
+height:130px;
+border-bottom:1px solid #CDCDCD;
+font:13px "Arial";
+color: #757575;
+margin-top:20px;
+}
+
+.balanceDue{
+font:13px "Arial";
+color:#757575;
+margin-top:20px;
+text-align:center;
+}
+
+.bill{
+margin-top:20px;
+margin-bottom:10px;
+color:#3E3730;
+font-size:40px;
+}
+
+.payNowButton{
+background: #fcce44; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcce44 20%, #fcd255 42%, #febf01 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#fcce44), color-stop(42%,#fcd255), color-stop(100%,#febf01)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fcce44 20%,#fcd255 42%,#febf01 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fcce44 20%,#fcd255 42%,#febf01 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fcce44 20%,#fcd255 42%,#febf01 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fcce44 20%,#fcd255 42%,#febf01 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcce44', endColorstr='#febf01',GradientType=0 ); /* IE6-9 */ 	
+padding:13px 50px;
+border:1px solid #c99d00;
+border-radius:4px;
+box-shadow:1px 1px 1px #cacaca;
+margin-top:20px;
+margin-bottom:12px;
+width:100%;
+}
+
+.billPayment{
+float:left;
+width:45%;
+margin-right:10px;
+text-align:center;
+}
+
+.autoPayment{
+float:left;
+width:45%;
+text-align:center;
+}
+
+.leftbottomBox{
+background-color:#F9F9F9;
+padding:12px;
+font-family:"arial";
+color:#737375;
+padding-bottom:5px;
+}
+
+.leftbottomBox h5{
+padding-bottom:12px;
+border-bottom:1px dashed #c1c1c1;
+}
+
+.leftbottomBox ul{
+list-style:none;
+}
+
+.leftbottomBox ul li{
+margin-top:8px;
+padding-bottom:4px;
+border-bottom:1px solid #c1c1c1;
+}
+
+.leftbottomBox ul li .date{
+font-size:10px;
+}
+
+.leftbottomBox ul li .text{
+font-size:13px;
+color:blue;
+}
+
+.rightBox{
+border:1px solid #CDCDCD;
+border-radius:5px;
+box-shadow:1px 1px 10px #CDCDCD;
+width:450px;
+height:350px;
+float:left;
+margin-top:10px;
+margin-left:40px;
+background-color:#FEFEFE;
+font-family:'arial';
+margin-bottom:20px;
+}
+
+.rightBox .header{
+height:15px;
+background-color:#F9F9F9;
+border-bottom:1px solid #CDCDCD;
+padding: 15px;
+}
+
+.tickMark{
+background-position: -100px -250px;
+width: 22px;
+height: 23px;
+}
+
+.rightBox .header h5{
+color:#A7C725;
+float:left;
+}
+
+.rightBox .header a{
+float:right;
+}
+
+.rightBody{
+padding:20px;
+padding-top:40px;
+}
+
+.rightBody ul{
+list-style:none;
+}
+
+.rightBody ul li{
+padding-top:15px;
+border-top:1px dashed #c1c1c1;
+padding-bottom:15px;
+}
+
+.bottombox{
+clear:both;
+background-color:#FFFFFF;
+height:400px;
+width:1000px;
+}
+
+.bluegradbox{
+height:80px;
+width:80px;
+background: #00b7ea; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #00b7ea 0%, #0082b2 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#00b7ea), color-stop(100%,#0082b2)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #00b7ea 0%,#0082b2 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #00b7ea 0%,#0082b2 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #00b7ea 0%,#0082b2 100%); /* IE10+ */
+background: linear-gradient(135deg,  #00b7ea 0%,#0082b2 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#0082b2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+border:5px solid white;
+border-radius:15px;
+box-shadow:1px 1px 10px #CDCDCD;
+margin:25px;
+float:left;
+text-align:center;
+font:13px 'arial';
+}
